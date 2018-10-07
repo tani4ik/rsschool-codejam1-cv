@@ -38,11 +38,39 @@ header {
     background-color: #f6f6f8;
 }
 
+header .header-description {
+    align-self: center;
+    color: #2d2324;
+}
+
+header .header-photo {
+    border-radius: 50%;
+    margin-right: 130px;
+}
+
 aside {
     margin-right: 20px;
     max-width: 300px;
     background-color: #2d2324;
     padding: 20px;
+}
+
+aside section {
+    margin-bottom: 20px;
+    color: #f4f3f1;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+    color: #f4f3f1;
+    text-align: center;
+}
+
+.section-contacts-list li,
+.section-education-list li,
+.section-languages-list li {
+    margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 main {
@@ -51,9 +79,32 @@ main {
     padding: 20px;
 }
 
+main section:not(:last-child) {
+    margin-bottom: 20px;    
+}
+
+main h2 {
+    color: #2d2324;
+    margin-bottom: 10px;
+}
+
+main .section-experience-list {
+    margin-left: 50px;
+}
+
+main .section-skills-list {
+    margin-left: 50px;
+}
+
 footer {
     flex: 1 100%;
     margin-top: 20px;
     min-height: 80px;
     background-color: #f6f6f8;
+}
+
+.footer-social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
 }
