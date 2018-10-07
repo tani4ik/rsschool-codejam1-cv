@@ -108,3 +108,20 @@ footer {
     justify-content: center;
     margin-top: 25px;
 }
+
+.footer-social-links li:not(:last-child) {
+    margin-right: 10px;
+}
+
+.footer-social-links a {
+    color: #2d2324;
+}
+
+.footer-social-links a:hover {
+    text-decoration: none;
+}
+
+.footer-social-links a:active {
+    color: #990707;
+    text-decoration: none;
+}
